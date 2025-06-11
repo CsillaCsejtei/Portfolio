@@ -17,7 +17,7 @@ padding: 20px;
 border-radius: var(--border-radius);
 }
 
-h1, .me, nav{
+h1, nav{
   text-align: center;
 }
 
