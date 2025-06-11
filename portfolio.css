@@ -1,8 +1,8 @@
 :root{
-  --first-color:rgb(236, 215, 254);
+  --first-color:rgb(215, 232, 254);
   --second-color:white;
-  --third-color:rgb(247, 222, 112);
-  --border-radius: 10px;
+  --third-color:#FFFE99;
+  --border-radius: 5px;
 }
 
 body{
@@ -10,26 +10,58 @@ body{
 }
 
 .container{
-max-width: 700px;
+width: 700px;
 margin: 0 auto;
 background-color: var(--second-color);
 padding: 20px;
 border-radius: var(--border-radius);
 }
 
-h1{
-  text-align: left;
+h1, .me, nav{
+  text-align: center;
 }
+
 img{
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius); 
+}
+img:hover{
+  transform: scale(1.2);
 }
 p{
   text-align:justify;
   font-family: sans-serif;
   font-size: 15px;
-  max-width: 600px;
+}
+form {
+  max-width: 400px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: var(--border-radius);
+  background-color: var(--first-color);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
-a{
+input:focus, .textarea:focus{
+  background-color: var(--third-color);
+}
 
+button {
+  border-radius: var(--border-radius);
+  margin-top: 10px;
+}
+button:hover {
+  background-color: rgb(64, 64, 136);
+  color: white;
+  cursor: pointer;
+}
+
+.gmail{
+  font-size: 18px;
+}
+
+footer{
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: cursive;
+  text-align: center;
 }
