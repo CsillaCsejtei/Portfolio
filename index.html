@@ -12,22 +12,22 @@
     <header>
       
       <nav>
-        <a href="#">About</a>
-        <a href="#"> Projects</a>
-        <a href="#"> Contact</a>
+        <a href="#about">About</a>
+        <a href="#projects"> Projects</a>
+        <a href="#contact"> Contact</a>
       </nav>
       <h1>Csilla Csejtei</h1>
     </header>
     <main>
       <div class="me">
-       <img src="./assets/me.jpg" alt="picture of Csilla Csejtei" height="300px"/>
+       <img src="./assets/me.jpg" alt="picture of Csilla Csejtei" title="Csilla Csejtei" height="300px"/>
       </div>
-      <div class="about-me">
+      <div class="about-me" id="about">
         <h2>About me</h2>
         <p>
-        With a decorated background in professional sports—including five
+        With a decorated background in professional sports — including five
         Hungarian Boxing Championship titles, two European Boxing Championship
-        bronze medals, and a European Kickboxing Championship bronze—I bring
+        bronze medals, and a European Kickboxing Championship bronze — I bring
         focus, resilience, and a strong work ethic to my career in tech.
         <br />
         After transitioning from quality assurance in the vitamin manufacturing
@@ -43,14 +43,14 @@
         </p>
       </div>
     </main>
-    <section>
+    <section id="projects">
       <h2>My projects</h2>
-      <img src="./assets/dictionary-app.png" alt="Dictionary app" height="300px">
-      <img src="./assets/Weather-app.png" alt="Weather app" height="300px">
+      <img src="./assets/dictionary-app.png" alt="Dictionary app" title="Dictionary app" height="300px">
+      <img src="./assets/Weather-app.png" alt="Weather app" title="Weather app" height="300px">
     </section>
-    <section>
+    <section id="contact">
       <h2>Contact me</h2>
-      <form action="submit.php" method="post">
+      <form action="submit.php" method="post" class="form">
         <div>
           <label for="name">Your name:</label>
           <br />
@@ -82,22 +82,22 @@
           <div>
             <label for="message">Your message:</label>
             <br>
-            <textarea></textarea> 
+            <textarea class="textarea" rows="10" cols="50"></textarea> 
           </div>
           <div>
-          <input type="button" value="Submit" />      
+          <button>Submit</button>      
         </div>
       </form>
       <h3>Or you may email me at</h3>
-      <a
+      <a class="gmail"
         href="mailto: csillacsejtei@gmail.com"
         target="_blank"
         title="Email Csilla Csejtei"
         >csillacsejtei@gmail.com</a
       >
     </section>
-    <footer>This project was coded by Csilla Csejtei and it is <a href="https://github.com/csillacsejtei/portfolio" target="_blank">
-      open-sourced</footer>
+    <footer>This project was coded by <strong>Csilla Csejtei</strong> and it is <a href="https://github.com/csillacsejtei/portfolio" target="_blank">
+      open-sourced</a>.</footer>
      </div> 
   </body>
 
