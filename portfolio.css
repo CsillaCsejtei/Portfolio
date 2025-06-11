@@ -27,6 +27,10 @@ img{
 img:hover{
   transform: scale(1.2);
 }
+h2{
+ font-style:italic;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 p{
   text-align:justify;
   font-family: sans-serif;
