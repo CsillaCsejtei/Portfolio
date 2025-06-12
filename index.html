@@ -3,75 +3,89 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="./styles/portfolio.css" />
     <title>Portfolio of Csilla Csejtei</title>
   </head>
   <body>
     <div class="container">
-    
-    <header>
-      
-      <nav>
-        <a href="#about">About</a>
-        <a href="#projects"> Projects</a>
-        <a href="#contact"> Contact</a>
-      </nav>
-      <h1>Csilla Csejtei</h1>
-    </header>
-    <main>
-      
-      <div class="about-me" id="about">
-        <h2>About me</h2>
-       <div class="me">
-       <img src="me.jpg" alt="picture of Csilla Csejtei" title="Csilla Csejtei" height="300px"/>
-      </div> 
-        <p>
-        With a decorated background in professional sports — including five
-        Hungarian Boxing Championship titles, two European Boxing Championship
-        bronze medals, and a European Kickboxing Championship bronze — I bring
-        focus, resilience, and a strong work ethic to my career in tech.
-        <br />
-        After transitioning from quality assurance in the vitamin manufacturing
-        industry, I followed my long-standing passion for technology and
-        graduated from SheCodes in May 2025 as a Front-End Developer.
-        <br />
-        My studies have covered HTML, CSS, JavaScript, Bootstrap,
-        GitHub, Netlify, React, Axios, Python, AI, responsive design, and more.
-        <br />
-        I’m currently deepening my knowledge of back-end technologies, working
-        toward becoming a full-stack developer who builds thoughtful,
-        user-focused digital experiences.
-        </p>
-      </div>
-    </main>
-    <section id="projects">
-      <h2>My projects</h2>
-      <img src="dictionary-app.png" alt="Dictionary app" title="Dictionary app" height="300px">
-      <img src="Weather-app.png" alt="Weather app" title="Weather app" height="300px">
-    </section>
-    <section id="contact">
-      <h2>Contact me</h2>
-      <form action="submit.php" method="post" class="form">
-        <div>
-          <label for="name">Your name:</label>
-          <br />
-          <input type="text" name="name" id="name" />
+      <header>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#projects"> Projects</a>
+          <a href="#contact"> Contact</a>
+        </nav>
+        <h1>Csilla Csejtei</h1>
+      </header>
+      <main>
+        <div class="about-me" id="about">
+          <h2>About me</h2>
+          <div class="me">
+            <img
+              src="./images/me.jpg"
+              alt="picture of Csilla Csejtei"
+              title="Csilla Csejtei"
+              height="300px"
+            />
+          </div>
+          <p>
+            With a decorated background in professional sports — including five
+            Hungarian Boxing Championship titles, two European Boxing
+            Championship bronze medals, and a European Kickboxing Championship
+            bronze — I bring focus, resilience, and a strong work ethic to my
+            career in tech.
+            <br />
+            After transitioning from quality assurance in the vitamin
+            manufacturing industry, I followed my long-standing passion for
+            technology and graduated from SheCodes in May 2025 as a Front-End
+            Developer.
+            <br />
+            My studies have covered HTML, CSS, JavaScript, Bootstrap, GitHub,
+            Netlify, React, Axios, Python, AI, responsive design, and more.
+            <br />
+            I’m currently deepening my knowledge of back-end technologies,
+            working toward becoming a full-stack developer who builds
+            thoughtful, user-focused digital experiences.
+          </p>
         </div>
+      </main>
+      <section id="projects">
+        <h2>My projects</h2>
+        <img
+          src="./images/dictionaryapp.jpg"
+          alt="Dictionary app"
+          title="Dictionary app"
+          height="300px"
+        />
+        <img
+          src="./images/weatherapp.jpg"
+          alt="Weather app"
+          title="Weather app"
+          height="300px"
+        />
+      </section>
+      <section id="contact">
+        <h2>Contact me</h2>
+        <form action="submit.php" method="post" class="form">
+          <div>
+            <label for="name">Your name:</label>
+            <br />
+            <input type="text" name="name" id="name" />
+          </div>
 
-        <div>
-          <label for="email">Your email address:</label>
-          <br />
-          <input type="email" name="email" id="email" />
-        </div>
-        <div>
-          <label for="phone-number">Your phone number:</label>
-          <br />
-          <input type="tel" name="phone-number" id="phone-number" />
-          <br />
-        </div>
-        <div>
+          <div>
+            <label for="email">Your email address:</label>
+            <br />
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="phone-number">Your phone number:</label>
+            <br />
+            <input type="tel" name="phone-number" id="phone-number" />
+            <br />
+          </div>
+          <div>
             <label for="media">How did you hear about me?</label>
-            <br>
+            <br />
             <select name="media" id="media">
               <option value="facebook">Facebook</option>
               <option value="instagram">Instagram</option>
@@ -82,24 +96,28 @@
           </div>
           <div>
             <label for="message">Your message:</label>
-            <br>
-            <textarea class="textarea" rows="10" cols="50"></textarea> 
+            <br />
+            <textarea class="textarea" rows="10" cols="50"></textarea>
           </div>
           <div>
-          <button>Submit</button>      
-        </div>
-      </form>
-      <p>Or you may email me at</p>
-      <a class="gmail"
-        href="mailto: csillacsejtei@gmail.com"
-        target="_blank"
-        title="Email Csilla Csejtei"
-        >csillacsejtei@gmail.com</a
-      >
-    </section>
-    <footer>This project was coded by <strong>Csilla Csejtei</strong> and it is <a href="https://github.com/csillacsejtei/portfolio" target="_blank">
-      open-sourced</a>.</footer>
-     </div> 
+            <button>Submit</button>
+          </div>
+        </form>
+        <p>Or you may email me at</p>
+        <a
+          class="gmail"
+          href="mailto: csillacsejtei@gmail.com"
+          target="_blank"
+          title="Email Csilla Csejtei"
+          >csillacsejtei@gmail.com</a
+        >
+      </section>
+      <footer>
+        This project was coded by <strong>Csilla Csejtei</strong> and it is
+        <a href="https://github.com/csillacsejtei/portfolio" target="_blank">
+          open-sourced</a
+        >.
+      </footer>
+    </div>
   </body>
-
 </html>
